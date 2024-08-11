@@ -4,7 +4,7 @@
 		"typescript": "^5.5.4"
 	},
 	"scripts": {
-		"build-strict": "tsc -p apps/app-strict/tsconfig.json",
-		"build-not-strict": "tsc -p apps/app-not-strict/tsconfig.json"
+		"build-strict": "tsc -p apps/app-strict/tsconfig.app.json",
+		"build-not-strict": "tsc -p apps/app-not-strict/tsconfig.app.json"
 	}
 }
