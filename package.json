@@ -1,0 +1,10 @@
+{
+	"devDependencies": {
+		"@types/node": "^22.2.0",
+		"typescript": "^5.5.4"
+	},
+	"scripts": {
+		"build-strict": "tsc -p apps/app-strict/tsconfig.json",
+		"build-not-strict": "tsc -p apps/app-not-strict/tsconfig.json"
+	}
+}
